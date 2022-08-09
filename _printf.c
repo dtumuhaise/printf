@@ -2,7 +2,7 @@
 
 /**
  * _printf - print char or string
- * @format: character string
+ * @fomart: character string
  * Return: number of characters being printed
  */
 
@@ -12,6 +12,8 @@ int _printf(const char *format, ...)
 		{"c", func_char},
 		{"s", func_string},
 		{"%", func_percent},
+		{"d", func_digit},
+		{"i", func_digit},
 		{NULL, NULL}};
 
 	va_list list;
