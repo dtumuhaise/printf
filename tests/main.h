@@ -26,7 +26,7 @@ int func_string(va_list);
 int func_char(va_list);
 int func_percent(va_list);
 int get_match_func(const char *, va_list, st_fmt st_format[]);
-int func__digit(va_list);
+int func_digit(va_list);
 
 
 #endif
