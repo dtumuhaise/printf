@@ -2,7 +2,7 @@
 
 /**
  * _printf - print char or string
- * @format: character string
+ * @fomart: character string
  * Return: number of characters being printed
  */
 
@@ -19,8 +19,6 @@ int _printf(const char *format, ...)
 		{"o", func_octal_convert},
 		{"x", func_hex_Lowcase_convert},
 		{"X", func_hex_Upcase_convert},
-		{"S", func_stringUppercase},
-		{"r", func_revstr},
 		{NULL, NULL}};
 
 	va_list list;

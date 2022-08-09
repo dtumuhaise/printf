@@ -32,5 +32,6 @@ int func_octal_convert(va_list);
 int func_hex_Upcase_convert(va_list);
 int func_hex_Lowcase_convert(va_list);
 int bin_oct_hex_convert(unsigned int, int, int);
+int func_unsig_int(va_list list);
 
 #endif
