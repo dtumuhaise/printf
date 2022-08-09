@@ -2,9 +2,10 @@
 /**
  * bin_oct_hex_convert - convert a number into binary, octal or hexadecimal
  * @num: Its the number given to convert
- * @base: is the base which the number will be divided with; binary 2; octal 8; hexadecima 16.
- *Return: The number of characteres printed
- */	
+ * @base: is the base which the number will be divided
+ * @flag: flag
+ * Return: The number of characteres printed
+ */
 int bin_oct_hex_convert(unsigned int num, int base, int flag)
 {
 	char hexUpcase[] = "0123456789ABCDEF";
@@ -29,5 +30,5 @@ int bin_oct_hex_convert(unsigned int num, int base, int flag)
 	{
 		_putchar(array[j]);
 	}
-	return(2000 - i);
+	return (2000 - i);
 }
