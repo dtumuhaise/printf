@@ -14,6 +14,11 @@ int _printf(const char *format, ...)
 		{"%", func_percent},
 		{"d", func_digit},
 		{"i", func_digit},
+		{"b", func_binary_convert},
+		{"u", func_unsig_int},
+		{"o", func_octal_convert},
+		{"x", func_hex_Lowcase_convert},
+		{"X", func_hex_Upcase_convert},
 		{NULL, NULL}};
 
 	va_list list;
