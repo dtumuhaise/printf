@@ -57,7 +57,7 @@ int func_binary_convert(va_list list)
 	int number_size = 0, number = 0, base = 2, flag = 0;
 
 	number = va_arg(list, unsigned int);
-	number_size = binary_oct_hex_convert(number, base, flag);
+	number_size = bin_oct_hex_convert(number, base, flag);
 	return (number_size);
 
 }
@@ -71,7 +71,7 @@ int func_octal_convert(va_list list)
 	int number_size = 0, number = 0, base = 8, flag = 0;
 
 	number = va_arg(list, unsigned int);
-	number_size = binary_oct_hex_convert(number, base, flag);
+	number_size = bin_oct_hex_convert(number, base, flag);
 	return (number_size);
 }
 /**
@@ -85,7 +85,7 @@ int func_hex_Lowcase_convert(va_list list)
 	int number_size = 0, number = 0, base = 16, flag = 0;
 
 	number = va_arg(list, unsigned int);
-	number_size = binary_oct_hex_convert(number, base, flag);
+	number_size = bin_oct_hex_convert(number, base, flag);
 	return (number_size);
 }
 /**
@@ -99,6 +99,6 @@ int func_hex_Upcase_convert(va_list list)
 	int number_size = 0, number = 0, base = 16, flag = 1;
 
 	number = va_arg(list, unsigned int);
-	number_size = binary_oct_hex_convert(number, base, flag);
+	number_size = bin_oct_hex_convert(number, base, flag);
 	return (number_size);
 }
