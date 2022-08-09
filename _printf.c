@@ -2,7 +2,7 @@
 
 /**
  * _printf - print char or string
- * @fomart: character string
+ * @format: character string
  * Return: number of characters being printed
  */
 
