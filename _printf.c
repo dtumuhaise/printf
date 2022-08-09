@@ -20,6 +20,7 @@ int _printf(const char *format, ...)
 		{"x", func_hex_Lowcase_convert},
 		{"X", func_hex_Upcase_convert},
 		{"S", func_stringUppercase},
+		{"r", func_revstr},
 		{NULL, NULL}};
 
 	va_list list;
