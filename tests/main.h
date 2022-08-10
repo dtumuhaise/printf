@@ -34,4 +34,7 @@ int func_hex_Lowcase_convert(va_list);
 int bin_oct_hex_convert(unsigned int, int, int);
 int func_unsig_int(va_list list);
 
+/* print pointer @ saviour */
+int print_p(va_list p);
+
 #endif

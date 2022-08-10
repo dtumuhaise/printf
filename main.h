@@ -35,4 +35,7 @@ int bin_oct_hex_convert(unsigned int, int, int);
 int func_unsig_int(va_list list);
 int func_stringUppercase(va_list list);
 
+/* Print pointers @Saviour */
+int print_p(va_list p);
+
 #endif
